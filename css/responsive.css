@@ -1,0 +1,41 @@
+@media screen and (min-width: 480px) {
+	/*********
+	TWO COLUMN LAYOUT 1
+	*******/
+
+	#primary {
+		width: 50%;
+		float: left;
+	}
+	
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+
+
+/*********
+	TWO COLUMN LAYOUT 2
+	*******/
+
+	#primary-2 {
+		width: 40%;
+		float: left;
+	}
+		
+	#secondary-2 {
+		width: 60%;
+		float: right;
+	}
+	
+}
+	@media screen and (min-width: 660px) {
+		/*********
+		HEADER
+		*******/
+		header {
+			border-bottom: 5px solid #b3b3b3;
+			margin-bottom: 30px;
+		}
+		
+}
