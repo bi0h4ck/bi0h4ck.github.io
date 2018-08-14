@@ -98,6 +98,9 @@ h1 {
 	background: url("../img/astronomy.jpg");
 	background-size: 100%;
 	animation: animateBG 15s linear infinite;
+	-webkit-animation: animateBG 15s linear infinite;
+	-moz-animation: animateBG 15s linear infinite;
+	-o-animation: animateBG 15s linear infinite;
 	animation-timing-function: ease;
 	position: fixed;
 	top: 0;
@@ -107,6 +110,21 @@ h1 {
 }
 
 @keyframes animateBG {
+	from { 	transform: rotate(0deg) translateX(10px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+@-webkit-keyframes animateBG {
+	from { 	transform: rotate(0deg) translateX(10px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+@-moz-keyframes animateBG {
+	from { 	transform: rotate(0deg) translateX(10px) rotate(0deg); }
+	to   {  transform: rotate(360deg) translateX(10px) rotate(-360deg); }
+}
+
+@-o-keyframes animateBG {
 	from { 	transform: rotate(0deg) translateX(10px) rotate(0deg); }
 	to   {  transform: rotate(360deg) translateX(10px) rotate(-360deg); }
 }
