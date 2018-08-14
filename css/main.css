@@ -166,6 +166,8 @@ h1 {
 }
 
 
+
+
 /*********
 RESUME
 *******/
@@ -180,7 +182,7 @@ RESUME
 	padding: 10px;
 }
 
-#heading:hover {
+#heading:hover #name-job{
 	color: #9d8cd9;
 	opacity: 0.9;
 }
