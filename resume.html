@@ -4,165 +4,160 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/main.css">		
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<title>Julie Pham | Software Engineer</title>
 
-		
-		<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Jura:300" rel="stylesheet">
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/main.css">		
-		<link rel="stylesheet" href="css/responsive.css">
-		
+		<link rel="preload" href="img/astronomy.jpg" as="image">		
 	</head>
-	<body>
-		<div class="background">
-			<div class="container">
-				<div class="d-flex flex-column justify-content-center" id="heading">
-					<a href="index.html" id="name-job">
-						<div id="name">Julie Pham</div>
-						<div id="profession">Software Engineer | Computer Science Senior</div>	
-					</a>
-					<div class="contact-info">
-						<a href="http://linkedin.com/in/juliediempham"><img src="img/linkedin_resume.png"></a>
-						<a href="https://github.com/bi0h4ck"><img src="img/github_resume.png"></a>
-						<a href="https://teamtreehouse.com/juliediempham"><img src="img/treehouse.svg"></a>	
-					</div>		
+	<body background="img/astronomy.jpg">
+		<div class="container">
+			<div class="d-flex flex-column justify-content-center" id="heading">
+				<a href="index.html" id="name-job">
+					<div id="name">Julie Pham</div>
+					<div id="profession">Software Engineer | Computer Science Senior</div>	
+				</a>
+				<div class="contact-info">
+					<a href="http://linkedin.com/in/juliediempham"><img src="img/linkedin_resume.png"></a>
+					<a href="https://github.com/bi0h4ck"><img src="img/github_resume.png"></a>
+					<a href="https://teamtreehouse.com/juliediempham"><img src="img/treehouse.svg"></a>	
+				</div>		
+			</div>
+			<div id="resume">	
+				<div class="row">
+					<div class="col-md-3 sub-title">
+						<p>OBJECTIVE</p>
+					</div>
+					<div class="col-md-9 sub-title-description">
+						<p>objective goes here</p> 
+					</div>
 				</div>
-				<div id="resume">	
-					<div class="row">
-						<div class="col-md-3 sub-title">
-							<p>OBJECTIVE</p>
-						</div>
-						<div class="col-md-9 sub-title-description">
-							<p>objective goes here</p> 
-						</div>
-					</div>
 
-					<div class="row">
-						<div class="col-md-3 sub-title">
-							<p>SKILLS</p>
-						</div>
-						<div class="col-md-9 sub-title-description">
-							<p>Scala &emsp;| &emsp; Python &emsp; | &emsp; SQL &emsp; | &emsp; Git &emsp; | &emsp; Zsh</p>
-						</div>
+				<div class="row">
+					<div class="col-md-3 sub-title">
+						<p>SKILLS</p>
 					</div>
+					<div class="col-md-9 sub-title-description">
+						<p>Scala &emsp;| &emsp; Python &emsp; | &emsp; SQL &emsp; | &emsp; Git &emsp; | &emsp; Zsh</p>
+					</div>
+				</div>
 
-					<div class="row sub-title">
-						<p>EXPERIENCES</p>
+				<div class="row sub-title">
+					<p>EXPERIENCES</p>
+				</div>
+				<div class="row ml-4 mr-4">
+					<div class="col-md-3 p-0">
+						<p class="date"><em>May 2018 - Present</em></p>
 					</div>
-					<div class="row ml-4 mr-4">
-						<div class="col-md-3 p-0">
-							<p class="date"><em>May 2018 - Present</em></p>
+					<div class="col-md-9 sub-title-description job-title">
+						<div class="d-flex justify-content-between">
+							<strong>Software Engineering Intern</strong>
+							<a href="https://www.headstorm.com/" class="company"><img src="img/headstorm-icon.png" class="headstorm-icon"> Headstorm - Addison, TX</a>
 						</div>
-						<div class="col-md-9 sub-title-description job-title">
-							<div class="d-flex justify-content-between">
-								<strong>Software Engineering Intern</strong>
-								<a href="https://www.headstorm.com/" class="company"><img src="img/headstorm-icon.png" class="headstorm-icon"> Headstorm - Addison, TX</a>
-							</div>
-							<ul class="m-0 list-description">
-								<li>details go here</li>
-							</ul>
-						</div>
+						<ul class="m-0 list-description">
+							<li>details go here</li>
+						</ul>
 					</div>
+				</div>
 
-					<div class="row sub-title">
-						<p>PERSONAL PROJECTS</p>
-					</div>	
-					<div class="row ml-4 mr-4">
-						<div class="col-md-3 p-0">
-							<p class="date"><em>Jun 2017 - Present</em></p>
-						</div>
-						<div class="col-md-9 sub-title-description job-title">
-							<ul style="list-style-type:none" class="pl-0">
-								<li><strong>ClassTalk</strong><br></li>
-								<ul class="list-description">
-									<li>Developing a communication application for students, teachers and parents</li>
-									<li>Building a REST API with a multitier architecture</li>
-									<li>Writing unit tests and integration tests with Specs2</li>
-									<li>Using Scala, Http4s, PostgreSQL, and Doobie</li>
-								</ul>
-							</ul>
-						</div>
-					</div>	
-					<div class="row ml-4 mr-4 mt-3">
-						<div class="col-md-3 p-0">
-							<p class="date"><em>Nov 2016 - Dec 2016</em></p>
-						</div>
-						<div class="col-md-9 pt-0 sub-title-description job-title">
-							<ul style="list-style-type:none" class="pl-0">
-								<li><strong>Sunny</strong><br></li>
-								<ul class="list-description">
-									<li>Developed a weather Android app that gives a weather forecast at a specific location</li>
-									<li>Used Dark Sky API on forecast.io</li>
-									<li>Used Java, OkHttp, Genymotion emulator and Android Studio</li>
-								</ul>
-							</ul>
-						</div>
+				<div class="row sub-title">
+					<p>PERSONAL PROJECTS</p>
+				</div>	
+				<div class="row ml-4 mr-4">
+					<div class="col-md-3 p-0">
+						<p class="date"><em>Jun 2017 - Present</em></p>
 					</div>
-
-					<div class="row sub-title">
-						<p>EDUCATION</p>
-					</div>
-					<div class="row ml-4 mr-4">
-						<div class="col-md-3 p-0">
-							<p class="date"><em>Graduation anticipated<br>May 2019</em></p>
-						</div>
-						<div class="col-md-9 sub-title-description job-title">
-							<div class="d-flex justify-content-between">
-								<strong>B.S Computer Science</strong>
-								<a href="https://www.utdallas.edu/" class="school"><img src="img/utd-icon.jpeg" class="utd-icon"><b> The University of Texas at Dallas, TX</b></a>
-							</div>
-							<ul class="m-0 list-description" style="list-style-type:none">
-								<li>Honors &amp Awards - Phi Theta Kappa International Honor Society</li>
-								<li>Organization - Member of ACM</li>
+					<div class="col-md-9 sub-title-description job-title">
+						<ul style="list-style-type:none" class="pl-0">
+							<li><strong>ClassTalk</strong><br></li>
+							<ul class="list-description">
+								<li>Developing a communication application for students, teachers and parents</li>
+								<li>Building a REST API with a multitier architecture</li>
+								<li>Writing unit tests and integration tests with Specs2</li>
+								<li>Using Scala, Http4s, PostgreSQL, and Doobie</li>
 							</ul>
-						</div>
-					</div>	
-					<div class="row ml-4 mr-4 mt-3">
-						<div class="col-md-3 p-0">
-							<p class="date"><em>2015 - 2017</em></p>
-						</div>
-						<div class="col-md-9 sub-title-description job-title">
-							<div class="d-flex justify-content-between">
-								<strong>Core courses</strong>
-								<a href="https://www.tccd.edu/"><b class="school">Tarrant County College, TX</b></a>	
-							</div>
-							<ul class="m-0 list-description" style="list-style-type:none">
-								<li>Honors &amp Awards - Dean's list 2015 - 2017</li>
-							</ul>
-						</div>
-					</div>	
-					<div class="row ml-4 mr-4 mt-3">
-						<div class="col-md-3 p-0">
-							<p class="date"><em>2008 - 2012</em></p>
-						</div>
-						<div class="col-md-9 sub-title-description job-title">
-							<div class="d-flex justify-content-between">
-								<strong>B.S Hospitality Management</strong>
-								<a href="https://www.hoasen.edu.vn/en" class="school"><img src="img/hoasen-icon.png" class="hoasen-icon"><b> Hoa Sen University, Vietnam</b></a>
-							</div>
-						</div>
-					</div>	
-					<div class="row">
-						<div class="col-md-3 sub-title">
-							<p>OTHERS</p>
-						</div>
-						<div class="col-md-9 sub-title-description">
-							<ul style="list-style-type:none" class="pl-0 mt-4 mb-4">
-								<li><strong>Interests</strong>: learning new technologies, board games, martial arts, traveling and cooking<br></li>
-								<li><strong>Languages</strong>: Vietnamese and English<br></li>
-							</ul>
-						</div>
-					</div>
-					<div class="p-4" style="text-align: center; color:#5FCF80; font-size:18px;">
-						<p>Please contact me at <strong>juliediempham@gmail.com</strong></p>
+						</ul>
 					</div>
 				</div>	
-				<footer class="p-4">
-					<i>Last updated - August 2018</i>		
-				</footer>	
-			</div>
-		</div>
+				<div class="row ml-4 mr-4 mt-3">
+					<div class="col-md-3 p-0">
+						<p class="date"><em>Nov 2016 - Dec 2016</em></p>
+					</div>
+					<div class="col-md-9 pt-0 sub-title-description job-title">
+						<ul style="list-style-type:none" class="pl-0">
+							<li><strong>Sunny</strong><br></li>
+							<ul class="list-description">
+								<li>Developed a weather Android app that gives a weather forecast at a specific location</li>
+								<li>Used Dark Sky API on forecast.io</li>
+								<li>Used Java, OkHttp, Genymotion emulator and Android Studio</li>
+							</ul>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row sub-title">
+					<p>EDUCATION</p>
+				</div>
+				<div class="row ml-4 mr-4">
+					<div class="col-md-3 p-0">
+						<p class="date"><em>Graduation anticipated<br>May 2019</em></p>
+					</div>
+					<div class="col-md-9 sub-title-description job-title">
+						<div class="d-flex justify-content-between">
+							<strong>B.S Computer Science</strong>
+							<a href="https://www.utdallas.edu/" class="school"><img src="img/utd-icon.jpeg" class="utd-icon"><b> The University of Texas at Dallas, TX</b></a>
+						</div>
+						<ul class="m-0 list-description" style="list-style-type:none">
+							<li>Honors &amp Awards - Phi Theta Kappa International Honor Society</li>
+							<li>Organization - Member of ACM</li>
+						</ul>
+					</div>
+				</div>	
+				<div class="row ml-4 mr-4 mt-3">
+					<div class="col-md-3 p-0">
+						<p class="date"><em>2015 - 2017</em></p>
+					</div>
+					<div class="col-md-9 sub-title-description job-title">
+						<div class="d-flex justify-content-between">
+							<strong>Core courses</strong>
+							<a href="https://www.tccd.edu/"><b class="school">Tarrant County College, TX</b></a>	
+						</div>
+						<ul class="m-0 list-description" style="list-style-type:none">
+							<li>Honors &amp Awards - Dean's list 2015 - 2017</li>
+						</ul>
+					</div>
+				</div>	
+				<div class="row ml-4 mr-4 mt-3">
+					<div class="col-md-3 p-0">
+						<p class="date"><em>2008 - 2012</em></p>
+					</div>
+					<div class="col-md-9 sub-title-description job-title">
+						<div class="d-flex justify-content-between">
+							<strong>B.S Hospitality Management</strong>
+							<a href="https://www.hoasen.edu.vn/en" class="school"><img src="img/hoasen-icon.png" class="hoasen-icon"><b> Hoa Sen University, Vietnam</b></a>
+						</div>
+					</div>
+				</div>	
+
+				<div class="row">
+					<div class="col-md-3 sub-title">
+						<p>OTHERS</p>
+					</div>
+					<div class="col-md-9 sub-title-description">
+						<ul style="list-style-type:none" class="pl-0 mt-4 mb-4">
+							<li><strong>Interests</strong>: learning new technologies, board games, martial arts, traveling and cooking<br></li>
+							<li><strong>Languages</strong>: Vietnamese and English<br></li>
+						</ul>
+					</div>
+				</div>
+				<div class="p-4" style="text-align: center; color:#5FCF80; font-size:18px;">
+					<p>Please contact me at <strong>juliediempham@gmail.com</strong></p>
+				</div>
+			</div>	
+			<footer class="p-4">
+				<i>Last updated - August 2018</i>		
+			</footer>	
+		</div>	
 	</body>		
 </html>
